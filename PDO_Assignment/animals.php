@@ -1,7 +1,7 @@
 <?php
 try {
 //Instantiate a database object
-$dbh = new PDO("mysql:host=localhost; dbname=kpraxel_animals", "kpraxel_user", "password");
+$dbh = new PDO("mysql:host=localhost; dbname=kpraxel_animals", "kpraxel_user", "*********");
 echo "Connected to Database!";
 }
 catch (PDOException $e) {
